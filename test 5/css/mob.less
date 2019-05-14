@@ -1,0 +1,217 @@
+@media screen  and (min-width: 731px) {
+    .header {
+        &__nav {
+            display: flex !important;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 730px) {
+    .header {
+
+        &__bg {
+            height: 350px;
+        }
+
+        &__bg-text {
+            height: 288px;
+            font-size: 26px;
+        }
+
+        &__bg-text2 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+
+        &__nav {
+            height: 140px;
+            display: none;
+
+            ul {
+                flex-flow: column wrap;
+                text-align: center;
+
+                li {
+                    padding: 8px;
+                }
+            }
+        }
+
+        #burg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+
+        }
+    }
+
+
+    main {
+
+        h2 {
+            .line-bot {
+                border: none;
+                padding: 15px;
+            }
+        }
+
+        .form {
+            height: 400px;
+
+            .text {
+                font-size: 17px;
+            }
+
+            .feedback-form {
+                form {
+                    label {
+                        input {
+                            width: 250px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        #hideTel, #hideFb {
+
+            width: 250px;
+
+        }
+
+        .hideform {
+            height: 250px;
+
+            p {
+                font-size: 19px;
+                width: 280px;
+            }
+
+            span {
+                font-size: 16px;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .wrapper {
+            height: 610px;
+            padding: 100px 0;
+
+            &__block {
+                flex-flow: column;
+                align-items: center;
+            }
+
+            &__elem {
+                margin: 15px;
+            }
+        }
+
+        .wrapper-two {
+            &__info {
+                flex-flow: column;
+
+                p {
+                    font-size: 15px;
+                    padding: 30px;
+                    width: 80%;
+                }
+
+                img {
+                    width: 75%;
+
+                    &:hover {
+                        transform: none;
+                    }
+                }
+            }
+
+            &__check {
+                .text-check {
+                    p {
+                        font-size: 15px;
+                    }
+
+                    p::before {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        .wrapper-three {
+            .rent-block {
+                ul {
+                    font-size: 15px;
+
+                    li {
+                        span {
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .wrapper-five {
+            .safely-block {
+                p {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+
+            .safely-img {
+                flex-flow: column wrap;
+
+                img {
+                    width: 70%;
+                }
+
+                .safely-text {
+                    width: 70%;
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    p:nth-child(1) {
+                        padding-top: 30px;
+                    }
+                }
+            }
+        }
+
+        .wrapper-six {
+            h2 {
+                font-size: 17px;
+            }
+
+            .reviews {
+                .user {
+                    width: 90%;
+
+                    p {
+                        font-size: 15px;
+                        border-radius: 20px;
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

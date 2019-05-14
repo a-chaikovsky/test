@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--LESS-->
+    <link rel="stylesheet/less" type="text/css" href="css/style.less"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body id="top">
+<header class="header">
+    <div id="burg">
+        <a href="#">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </div>
+    <nav class="header__nav" id="menu">
+        <ul>
+            <li><a href="#anchor-one">Зачем сдавать аккаунт в аренду</a></li>
+            <li><a href="#anchor-two">Процедура аренды</a></li>
+            <li><a href="#anchor-three">Безопасность</a></li>
+        </ul>
+    </nav>
+    <div class="header__bg">
+        <div class="header__bg-text">
+            <p>
+                <span>Зарабатывай</span><span class="bold">по 3000 гривен</span><span>в месяц!</span>
+            </p>
+        </div>
+        <div class="header__bg-text2">
+            <p>
+                Сдай свой аккаунт facebook в аренду!
+            </p>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="form">
+        <div class="text">
+            <p>
+                <span>Заполните форму </span><span class="line"> и с вами свяжется менеджер</span>
+            </p>
+        </div>
+        <div class="feedback-form">
+            <form action="" id="">
+                <label for="get-email">
+                    <input type="email" placeholder="email" id="get-email" required>
+                </label>
+                <label for="get-tel">
+                    <input type="tel" placeholder="ваш тел/viber/telegram" id="get-tel" required>
+                </label>
+                <label for="get-text">
+                    <input type="text" placeholder="Ссылка на ваш аккаунт facebook" id="get-text" required>
+                </label>
+                <label for="to-send">
+                    <input type="submit" id="to-send" value="сдать аккаунт">
+                </label>
+            </form>
+        </div>
+    </div>
+    <div class="hideform">
+        <p>
+            Удобный способ для связи
+        </p>
+        <form action="" class="hide">
+            <div id="group">
+                <label for="">
+                    <input type="checkbox" name="public" id="publicTel" value="yes" class="option-input checkbox">
+                    <span>телефон</span>
+                    <input type="checkbox" name="public" id="publicFb" value="yes" class="option-input checkbox">
+                    <span>соц.сети</span>
+                </label>
+            </div>
+            <div>
+                <label for="hideTel">
+                    <input type="tel" placeholder="ваш тел/viber/telegram" id="hideTel">
+                </label>
+                <label for="hideFb">
+                    <input type="text" placeholder="facebook" id="hideFb">
+                </label>
+            </div>
+        </form>
+    </div>
+    <h2 class="title" id="anchor-one"><span class="line-bot">3 причины сдать свой аккаунт facebook</span></h2>
+    <div class="wrapper">
+        <div class="wrapper__block">
+            <div class="wrapper__elem">
+                <img src="img/1.png" alt="">
+                <p>
+                    Вы можете получать по 3000 гривен в месяц легко и без усилий
+                </p>
+            </div>
+            <div class="wrapper__elem">
+                <img src="img/2.png" alt="">
+                <p>
+                    Никто не будет менять ваш пароль – нам нужен только рекламный кабинет, который привязан к вашей
+                    странице
+                </p>
+            </div>
+            <div class="wrapper__elem">
+                <img src="img/3.png" alt="">
+                <p>
+                    Никаких постов от вашего имени и спама – ваши друзья вообще не догадаются, что вы зарабатываете на
+                    своей
+                    страничке
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-two">
+        <h2><span class="line-bot">Зачем нам нужен  ваш аккаунт?</span></h2>
+        <div class="wrapper-two__info">
+            <img src="img/screen.jpg" alt="">
+            <p>
+                Нам нужно ставить как можно больше рекламы в facebook, но социальная сеть ограничивает количество
+                баннеров,
+                которые можно установить с одной страницы. Да, можно было бы создать кучу аккаунтов с нуля, но facebook
+                запрещает ставить рекламу с только что созданных страниц. Поэтому мы просто возьмем в аренду уже готовый
+                аккаунт.
+            </p>
+        </div>
+        <div class="wrapper-two__check">
+            <h2><span class="line-bot">Вы можете сдать свой аккаунт, если:</span></h2>
+            <div class="text-check">
+                <p>
+                    Аккаунту уже больше года
+                </p>
+                <p>
+                    Аккаунт верифицирован, то есть в нем подтвержден телефон, электронная почта, заполненный профиль и
+                    фото
+                </p>
+                <p>
+                    У вас есть незаблокированный рекламный кабинет (если вы им никогда не пользовались, значит он точно
+                    не
+                    заблокирован)
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-three" id="anchor-two">
+        <h2><span class="line-bot">Как происходит процедура аренды?</span></h2>
+        <div class="rent-block">
+            <ul>
+                <li><span>шаг. 1</span> Вы оставляете заявку на сайте</li>
+                <li><span>шаг. 2</span> С вами связывается менеджер, уточняет куда вам лучше отправить деньги</li>
+                <li><span>шаг. 3</span> Если ваш аккаунт подходит, мы перечисляем вам деньги, а вы на время даете свои
+                    логин и пароль
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper-four">
+        <h2><span class="line-bot">Как перечисляем деньги за аренду?</span></h2>
+        <div class="img-sprite">
+            <p class="viza"></p>
+            <p class="mc"></p>
+            <p class="ms"></p>
+            <p class="ab"></p>
+            <p class="ep"></p>
+            <p class="pp"></p>
+        </div>
+    </div>
+    <div class="wrapper-five" id="anchor-three">
+        <h2><span class="line-bot">Это безопасно?</span></h2>
+        <div class="safely-block">
+            <p><span>Да!</span> Мы не будем менять ваш логин и пароль. Также вам на почту будут приходить уведомления из
+                рекламного
+                кабинета, и вы увидите все наши действия.</p>
+            <h1>Заработайте таким способом до 52 800 грн в год!</h1>
+        </div>
+        <div class="safely-img">
+            <img src="img/key.jpg" alt="">
+            <div class="safely-text">
+                <p>
+                    Ведь нет ничего плохого в том, чтобы сдать свою квартиру на время. Сдать свой аккаунт facebook – это
+                    почти то же самое.
+                </p>
+                <p>
+                    <span>Простая математика</span>: в первый месяц вы получаете по 300 грн за сдачу аккаунта, за второй
+                    месяц по 2500
+                    грн, за третий месяц по 5000 грн, далее за каждый месяц по 5000 грн, что за год составит 52800 грн.
+                    Это
+                    выгоднее чем любой вклад в любом банке!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-six">
+        <h2>Сомневаетесь? Прочитайте отзывы:</h2>
+        <div class="reviews">
+            <div class="user">
+                <img src="img/photo2.jpg" alt="">
+                <p>
+                    Я уже 3 месяца сдаю свой аккаунт. А что? Он и так без дела был создан. Теперь хоть деньги с него
+                    получаю.
+                </p>
+            </div>
+            <div class="user">
+                <img src="img/photo3.jpg" alt="">
+                <p>
+                    Я сдала свой аккаунт неделю назад. Деньги перечислили сразу, на почту приходят отчеты о действиях в
+                    моем аккаунте. Такой способ заработка мне по душе.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p class="copy">
+        © 2019. All rights reserved.
+    </p>
+    <div id="up">
+        <a href="#top"><img src="img/4.png" alt=""/></a>
+        <p>вверх</p>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
